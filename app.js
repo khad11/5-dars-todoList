@@ -26,6 +26,6 @@ addNewTodo.addEventListener("click", () => {
   textInput.value = "";
 
   if (!textInput.value) {
-    alert("Nimadir yozing axir.");
+    alert("Nimadir yozing .");
   }
 });
