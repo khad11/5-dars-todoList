@@ -24,4 +24,8 @@ addNewTodo.addEventListener("click", () => {
   p.textContent = textInput.value;
   list.appendChild(clone);
   textInput.value = "";
+
+  if (!textInput.value) {
+    alert("Nimadir yozing axir.");
+  }
 });
